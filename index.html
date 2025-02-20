@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur en langue des signes Française</title>
+<!-- STYLES -->
+    <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+<body>
+
+    <header role="banner" class="header">
+        <div class="logo">
+            <img src="https://www.warren-walter.com/wp-content/uploads/2021/01/WarrenWalter_logo_light.svg" alt="Warren Walter">
+        </div>
+        <h1 class="h1">Générateur de mot en langue des signes</h1>
+    </header>
+
+    <main role="main" class="main">
+            <div class="form__search">
+                <div class="search">
+                    <label for="mot">Ecrivez votre prénom</label>
+                    <input type="text" id="mot" class="inp__search">
+                </div>
+                <button value="valider" onclick="valider(mot)">Lancez la conversion</button>
+            </div>
+        
+        <div id="conteneur">
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© Warren Walter – Tous droits réservés</p>
+    </footer>
+
+<!-- SCRIPT -->
+    <script src="./src/script/script.js"></script>
+
+</body>
+</html>
