@@ -3,7 +3,7 @@
 :root {
     --color-text: #384552;
     --color-bg: #fff;
-    --color-effect: #FFBE2B;
+    --color-effect: #b80000;
 }
 
 * {
@@ -146,7 +146,7 @@ p{
         height: 100%;
         margin: 0 auto;
         padding: 3rem 0;
-        background-color: #FFBE2B;
+        background-color: var(--color-effect);
     }
     img {
         display: inline-block;
